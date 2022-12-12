@@ -178,8 +178,9 @@ class ExpandableTextState extends State<ExpandableText>
                 style: linkTextStyle,
                 recognizer: _linkTapGestureRecognizer,
               ),
+              // issue refrence https://github.com/flutter/flutter/issues/43400#issuecomment-820950262
                TextSpan(
-                text: '',
+                text: ' ',
               ),
             ],
           ),
