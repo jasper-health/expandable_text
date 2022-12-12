@@ -178,6 +178,9 @@ class ExpandableTextState extends State<ExpandableText>
                 style: linkTextStyle,
                 recognizer: _linkTapGestureRecognizer,
               ),
+               TextSpan(
+                text: '',
+              ),
             ],
           ),
       ],
